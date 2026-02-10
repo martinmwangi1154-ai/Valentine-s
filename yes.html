@@ -9,6 +9,24 @@
     One last surprise 🎁
   </button>
 </div>
+0.surprise {
+  display: none;
+  background: white;
+  color: #333;
+  padding: 30px;
+  margin: 40px auto;
+  width: 85%;
+  max-width: 400px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+<script>
+  document.getElementById("yesBtn").addEventListener("click", function () {
+    document.querySelector(".card").style.display = "none";
+    document.getElementById("surprise").style.display = "block";
+  });
+      </script>
 
 <!DOCTYPE html>
 <html>
